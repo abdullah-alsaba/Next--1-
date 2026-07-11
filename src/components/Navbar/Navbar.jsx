@@ -72,12 +72,16 @@ const Navbar = () => {
                 </details>
               </li>
               <li>
-                <Link href="./about">Item 3</Link>
+                <Link href="/about">Item 3</Link>
               </li>
               <li>
-                <Link href="./dashboard">Dashboard</Link>
+                <Link href="/dashboard">Dashboard</Link>
+              </li>
+              <li>
+                <Link href="/posts">Posts</Link>
               </li>
             </ul>
+            
           </div>
           <div className="navbar-end">
             <a className="btn">Button</a>
