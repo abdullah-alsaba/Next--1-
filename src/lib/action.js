@@ -1,6 +1,7 @@
 import { revalidatePath } from "next/cache";
 
 import {postTask} from "./task"
+import { redirect } from "next/navigation";
 
 export const addATask = async(formData) => {
     'use server'
@@ -12,6 +13,7 @@ export const addATask = async(formData) => {
 
     if (res.ok) {
         revalidatePath("/tasks")
+        redirect("/task")
     }
     return res;
 }
