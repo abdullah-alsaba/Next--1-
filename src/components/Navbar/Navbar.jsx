@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import ThemeButton from '../ThemeButton/ThemeButton';
 
 const Navbar = () => {
     return (
@@ -87,7 +88,7 @@ const Navbar = () => {
             
           </div>
           <div className="navbar-end">
-            <a className="btn">Button</a>
+            <ThemeButton></ThemeButton>
           </div>
         </div>
       </div>
