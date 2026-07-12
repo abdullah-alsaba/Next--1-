@@ -1,5 +1,6 @@
 import { AddTask } from '@/components/AddTask/AddTask';
 import TaskCard from '@/components/TaskCard/TaskCard';
+import { addATask } from '@/lib/action';
 import { getTasks } from '@/lib/task';
 import React from 'react';
 
@@ -10,7 +11,7 @@ const TaskPage = async () => {
         <div>
             Tasks: {tasks.length}
             <div className='mt-10 mb-10 flex justify-center items-center'>
-                <AddTask></AddTask>
+                <AddTask addATask={addATask}></AddTask>
             </div>
             <div className='grid grid-cols-3 gap-4'>
                 {

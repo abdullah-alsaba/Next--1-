@@ -2,8 +2,10 @@
 
 import { Envelope } from "@gravity-ui/icons";
 import { Button, Input, Label, Modal, Surface, TextField } from "@heroui/react";
+import { ListBox, Select } from "@heroui/react";
 
-export function AddTask() {
+
+export function AddTask({ addATask }) {
   return (
     <Modal>
       <Button variant="secondary">Add Task</Button>
@@ -23,24 +25,24 @@ export function AddTask() {
             </Modal.Header>
             <Modal.Body className="p-6">
               <Surface variant="default">
-                <form className="flex flex-col gap-4">
+                <form action={addATask} className="flex flex-col gap-4">
                   <TextField
                     className="w-full"
-                    name="name"
+                    name="title"
                     type="text"
                     variant="secondary"
                   >
-                    <Label>Name</Label>
-                    <Input placeholder="Enter your name" />
+                    <Label>Title</Label>
+                    <Input placeholder="Enter task title" />
                   </TextField>
                   <TextField
                     className="w-full"
-                    name="email"
-                    type="email"
+                    name="description"
+                    type="text"
                     variant="secondary"
                   >
-                    <Label>Email</Label>
-                    <Input placeholder="Enter your email" />
+                    <Label>Description</Label>
+                    <Input placeholder="Enter task description" />
                   </TextField>
                   <TextField
                     className="w-full"
@@ -48,24 +50,33 @@ export function AddTask() {
                     type="tel"
                     variant="secondary"
                   >
-                    <Label>Phone</Label>
-                    <Input placeholder="Enter your phone number" />
-                  </TextField>
-                  <TextField
-                    className="w-full"
-                    name="company"
-                    variant="secondary"
-                  >
-                    <Label>Company</Label>
-                    <Input placeholder="Enter your company name" />
-                  </TextField>
-                  <TextField
-                    className="w-full"
-                    name="message"
-                    variant="secondary"
-                  >
-                    <Label>Message</Label>
-                    <Input placeholder="Enter your message" />
+                    <Select
+                      name="priority"
+                      className="w-full"
+                      placeholder="Select one"
+                    >
+                      <Label>Priority</Label>
+                      <Select.Trigger>
+                        <Select.Value />
+                        <Select.Indicator />
+                      </Select.Trigger>
+                      <Select.Popover>
+                        <ListBox>
+                          <ListBox.Item id="high" textValue="high">
+                            High
+                            <ListBox.ItemIndicator />
+                          </ListBox.Item>
+                          <ListBox.Item id="medium" textValue="medium">
+                            Medium
+                            <ListBox.ItemIndicator />
+                          </ListBox.Item>
+                          <ListBox.Item id="low" textValue="low">
+                            Low
+                            <ListBox.ItemIndicator />
+                          </ListBox.Item>
+                        </ListBox>
+                      </Select.Popover>
+                    </Select>
                   </TextField>
                   <Modal.Footer>
                     <Button slot="close" variant="secondary">
