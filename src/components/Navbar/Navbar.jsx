@@ -80,6 +80,9 @@ const Navbar = () => {
               <li>
                 <Link href="/posts">Posts</Link>
               </li>
+              <li>
+                <Link href="/task">Tasks</Link>
+              </li>
             </ul>
             
           </div>

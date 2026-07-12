@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "Complete HTML project",
+    "description": "Finish the responsive landing page.",
+    "completed": false,
+    "priority": "High",
+    "category": "Learning",
+    "dueDate": "2026-07-15"
+  },
+  {
+    "id": 2,
+    "title": "Practice JavaScript",
+    "description": "Solve 5 array problems.",
+    "completed": true,
+    "priority": "Medium",
+    "category": "Coding",
+    "dueDate": "2026-07-10"
+  },
+  {
+    "id": 3,
+    "title": "Read React Docs",
+    "description": "Learn useState and useEffect.",
+    "completed": false,
+    "priority": "High",
+    "category": "Learning",
+    "dueDate": "2026-07-18"
+  },
+  {
+    "id": 4,
+    "title": "Workout",
+    "description": "Exercise for 30 minutes.",
+    "completed": true,
+    "priority": "Low",
+    "category": "Health",
+    "dueDate": "2026-07-12"
+  },
+  {
+    "id": 5,
+    "title": "Push project to GitHub",
+    "description": "Commit and push latest changes.",
+    "completed": false,
+    "priority": "High",
+    "category": "Git",
+    "dueDate": "2026-07-14"
+  },
+  {
+    "id": 6,
+    "title": "Learn Fetch API",
+    "description": "Build a small API project.",
+    "completed": false,
+    "priority": "Medium",
+    "category": "Coding",
+    "dueDate": "2026-07-20"
+  },
+  {
+    "id": 7,
+    "title": "Watch Next.js Tutorial",
+    "description": "Complete routing section.",
+    "completed": true,
+    "priority": "Medium",
+    "category": "Learning",
+    "dueDate": "2026-07-11"
+  },
+  {
+    "id": 8,
+    "title": "Read Clean Code",
+    "description": "Finish chapter 3.",
+    "completed": false,
+    "priority": "Low",
+    "category": "Reading",
+    "dueDate": "2026-07-25"
+  },
+  {
+    "id": 9,
+    "title": "Build Todo App",
+    "description": "Use React state management.",
+    "completed": false,
+    "priority": "High",
+    "category": "Project",
+    "dueDate": "2026-07-30"
+  },
+  {
+    "id": 10,
+    "title": "Fix Portfolio Bugs",
+    "description": "Resolve mobile responsiveness issues.",
+    "completed": true,
+    "priority": "High",
+    "category": "Project",
+    "dueDate": "2026-07-13"
+  },
+  {
+    "id": 11,
+    "title": "Practice CSS Grid",
+    "description": "Create a dashboard layout.",
+    "completed": false,
+    "priority": "Medium",
+    "category": "CSS",
+    "dueDate": "2026-07-17"
+  },
+  {
+    "id": 12,
+    "title": "Learn TypeScript",
+    "description": "Understand basic types.",
+    "completed": false,
+    "priority": "High",
+    "category": "Learning",
+    "dueDate": "2026-08-01"
+  },
+  {
+    "id": 13,
+    "title": "Drink Water",
+    "description": "Complete daily hydration goal.",
+    "completed": true,
+    "priority": "Low",
+    "category": "Health",
+    "dueDate": "2026-07-12"
+  },
+  {
+    "id": 14,
+    "title": "Review Git Commands",
+    "description": "Practice branching and merging.",
+    "completed": false,
+    "priority": "Medium",
+    "category": "Git",
+    "dueDate": "2026-07-16"
+  },
+  {
+    "id": 15,
+    "title": "Deploy Website",
+    "description": "Deploy using Vercel.",
+    "completed": false,
+    "priority": "High",
+    "category": "Deployment",
+    "dueDate": "2026-07-22"
+  },
+  {
+    "id": 16,
+    "title": "Practice English",
+    "description": "Read one technical article.",
+    "completed": true,
+    "priority": "Medium",
+    "category": "Language",
+    "dueDate": "2026-07-12"
+  },
+  {
+    "id": 17,
+    "title": "Learn MongoDB",
+    "description": "Practice CRUD operations.",
+    "completed": false,
+    "priority": "High",
+    "category": "Backend",
+    "dueDate": "2026-08-05"
+  },
+  {
+    "id": 18,
+    "title": "Refactor Components",
+    "description": "Split large components into reusable ones.",
+    "completed": false,
+    "priority": "Medium",
+    "category": "React",
+    "dueDate": "2026-07-24"
+  },
+  {
+    "id": 19,
+    "title": "Learn Authentication",
+    "description": "Implement login with JWT.",
+    "completed": false,
+    "priority": "High",
+    "category": "Backend",
+    "dueDate": "2026-08-10"
+  },
+  {
+    "id": 20,
+    "title": "Write README",
+    "description": "Document project setup and features.",
+    "completed": true,
+    "priority": "Low",
+    "category": "Documentation",
+    "dueDate": "2026-07-19"
+  }
+]
